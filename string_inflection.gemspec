@@ -8,6 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = StringInflection::VERSION
   spec.authors       = ["mosop"]
   spec.email         = [""]
+  spec.licenses      = ['MIT']
 
   spec.summary       = %q{A yet another Ruby library for string inflection.}
   spec.homepage      = "https://github.com/mosop/string_inflection-ruby"
