@@ -2,6 +2,8 @@
 
 A yet another Ruby library for string inflection.
 
+[![Build Status](https://travis-ci.org/mosop/string_inflection-ruby.svg?branch=master)](https://travis-ci.org/mosop/string_inflection-ruby)
+
 ## Benefits
 
 * No more Active Support in your Gemfiles/gemspecs only for inflection.
