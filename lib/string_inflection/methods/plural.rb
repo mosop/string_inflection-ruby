@@ -15,7 +15,7 @@ module StringInflection
         diff = StringInflection.singulars[s]
         return s[0..(-1 - diff[0])] + diff[1] if diff
         SINGULAR_PATTERNS.each do |i|
-          s if s.sub!(i[0], i[1])
+          return s if s.sub!(i[0], i[1])
         end
         s + 's'
       }
