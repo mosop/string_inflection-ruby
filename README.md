@@ -72,6 +72,11 @@ For performance improvement, the inflection methods are separated into several m
 
 The handy database by Kevin Atkinson and other authors is significantly useful to generate irregular singular/plural forms. You can see the license in [README](submodules/agid/src/ext/agid/README).
 
+## Release Notes
+
+* v0.1.2
+  * Upper Case Replacement
+
 ## Authors
 
 [mosop](http://github.com/mosop) - creator, maintainer
