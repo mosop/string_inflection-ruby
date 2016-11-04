@@ -39,6 +39,22 @@ using StringInflection
 'child'.to_plural # 'children'
 ```
 
+## Upper Case Replacement
+
+With the `:up` option, `#to_singular` / `#to_plural` replaces a string with upper case letters.
+
+```ruby
+'DATA'.to_singular(up: true) # 'DATUM'
+'CHILD'.to_plural(up: true) # 'CHILDREN'
+```
+
+Note: `:up` affects only a replaced substring.
+
+```ruby
+'data'.to_singular(up: true) # 'datUM'
+'child'.to_plural(up: true) # 'childREN'
+```
+
 ## Refinement Modules
 
 For performance improvement, the inflection methods are separated into several modules. Use ones of the modules as needed.

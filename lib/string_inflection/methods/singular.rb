@@ -3,7 +3,7 @@ require_relative '../plurals'
 module StringInflection
   module Methods
     module Singular
-      SEPARATOR = /[^a-zA-Z0-9]|.(?=[A-Z])/
+      SEPARATOR = /[^a-zA-Z0-9]|[a-z0-9](?=[A-Z])/
       SUFFIXES = [
         [/([hosxz])es$/i, '\1', '\1'],
         [/ies$/i, 'y', 'Y'],

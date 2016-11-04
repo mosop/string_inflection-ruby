@@ -1,9 +1,9 @@
-require_relative 'spec_helper'
+require_relative '../spec_helper'
 using StringInflection
 
-module StringInflectionReadmeFeature
+module StringInflectionReadmeUsageFeature
   RSpec.describe name do
-    it 'Usage' do
+    it 'works' do
       expect('foo bar'.to_camel).to eq 'fooBar'
       expect('foo bar'.to_kebab).to eq 'foo-bar'
       expect('foo bar'.to_pascal).to eq 'FooBar'
